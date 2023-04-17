@@ -112,7 +112,18 @@ body {
 
   }
 
-  
+  .modal-content{
+    align-self: center;
+    margin: auto;
+
+    width: 60vw;}
+
+    .modal-dialog{
+margin: auto;
+max-width: 60vw;
+
+    }
+
 .banner {
   position: relative;
   height: 50vh;
