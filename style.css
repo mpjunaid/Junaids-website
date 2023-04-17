@@ -87,6 +87,68 @@ body {
     margin-bottom: 10px;
   }
   
+  .technical-skills {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .technical-skills h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #1f3d7a;
+  }
+  
+  .skill-category {
+    margin-bottom: 30px;
+  }
+  
+  .skill-category h3 {
+   
+
+  }
+
+  
+.banner {
+  position: relative;
+  height: 50vh;
+  margin-top: 60px;
+}
+
+.banner-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+
+.banner-text h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.banner-text p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.banner-text .btn {
+  font-size: 20px;
+  padding: 15px 30px;
+  border-radius: 30px;
+}
+
+
+
   /* Footer */
   
   .footer {
