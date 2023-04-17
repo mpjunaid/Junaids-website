@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Data Scientist Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <script src="bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer=""></script>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Data Scientist</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#education">Education</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#projects">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- About Section -->
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>About Me</h2>
+        <p>Hi, I'm a data scientist with over 5 years of experience in analyzing complex data sets and providing insights to businesses. I have a strong background in statistical analysis and machine learning, and I'm passionate about using data to drive business decisions.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="images/Junaid.jpg" alt="Profile Picture" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Education Section -->
+<section id="education">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Education</h2>
+        <ul>
+          <li>Master of Science in Data Science, XYZ University</li>
+          <li>Bachelor of Science in Statistics, ABC University</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Projects</h2>
+        <div class="card-deck">
+          <div class="card">
+            <img class="card-img-top" src="https://via.placeholder.com/400x300" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et dui sed justo faucibus ullamcorper vel vel massa. Sed vitae augue sit amet quam accumsan blandit non at velit. Sed vel augue et risus imperdiet fringilla.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-bs-target="#project1Modal">Learn More</button>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="https://via.placeholder.com/400x300" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Project 2</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et dui sed justo faucibus ullamcorper vel vel massa. Sed vitae augue sit amet quam accumsan blandit non at velit. Sed vel augue et risus imperdiet fringilla.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#project2Modal">Learn More</button>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="https://via.placeholder.com/400x300" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">Project 3</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et dui sed justo faucibus ullamcorper vel vel massa. Sed vitae augue sit amet quam accumsan blandit non at velit. Sed vel augue et risus imperdiet fringilla.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-bs-target="#project3Modal">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project 1 Modal -->
+<div class="modal fade" id="project1Modal" tabindex="-1" role="dialog" aria-labelledby="project1ModalLabel" aria-hidden="false">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="project1ModalLabel">Project 1 Details</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Here is more information about Project 1.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et dui sed justo faucibus ullamcorper vel vel massa. Sed vitae augue sit amet quam accumsan blandit non at velit. Sed vel augue et risus imperdiet fringilla.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <a href="#" class="btn btn-primary">Visit Site</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Project 2 Modal -->
+<div class="modal fade" id="project2Modal" tabindex="-1" role="dialog" aria-labelledby="project2ModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="project2ModalLabel">Project 2 Details</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Here is more information about Project 2.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et dui sed justo faucibus ullamcorper vel vel massa. Sed vitae augue sit amet quam accumsan blandit non at velit. Sed vel augue et risus imperdiet fringilla.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <a href="#" class="btn btn-primary">Visit Site</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Project 3 Modal -->
+<div class="modal fade" id="project3Modal" tabindex="-1" role="dialog" aria-labelledby="project3ModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="project3ModalLabel">Project 3 Details</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Here is more information about Project 2.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et dui sed justo faucibus ullamcorper vel vel massa. Sed vitae augue sit amet quam accumsan blandit non at velit. Sed vel augue et risus imperdiet fringilla.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <a href="#" class="btn btn-primary">Visit Site</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+
+</body>
